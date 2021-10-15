@@ -1,0 +1,36 @@
+footer {
+  /* Footer colors given from bootstrap classes */
+  /* background: #1f1c1c; */
+  /* width: 100%; */
+  text-align: center;
+  /* color: whitesmoke; */
+  padding: 16px 0px;
+  margin-top: 40px;
+  vertical-align: bottom;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/hero.jpg");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  /* TODO: MODULE_LAYOUT */
+  /* 1. Set a specific height. */
+  /* 2. Position and center the image to scale nicely on all screens. */
+}
+
+.hero-subheading {
+  font-size: 24px;
+  font-weight: 100;
+  align-content: center;
+}
+.hero-input {
+  width: 80%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+}
